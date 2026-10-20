@@ -1,21 +1,24 @@
+/* Mengatur tampilan dasar untuk seluruh halaman web */
 body {
-    background-color: #FFFFE0;
-    font-family: Arial, sans-serif;
-    color: #191970;
+    background-color: #FFFFE0; /* Mengubah warna latar belakang halaman menjadi kuning muda */
+    font-family: Arial, sans-serif; /* Mengatur jenis huruf (font) yang digunakan */
+    color: #191970; /* Mengubah warna teks utama menjadi biru tua */
 }
 
+/* Mengatur tampilan khusus untuk kotak/wadah profil */
 .kartuprofil {
-    width: 300px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    width: 300px; /* Menentukan lebar kotak profil */
+    margin: 50px auto; /* Memberikan jarak 50px dari atas, dan membuat kotak otomatis berada di tengah halaman (auto) */
+    padding: 20px; /* Memberikan ruang lega di dalam kotak agar teks tidak menempel ke garis pinggir */
+    background-color: white; /* Memberi warna putih untuk latar belakang kotak profil */
+    border-radius: 15px; /* Membuat sudut-sudut kotak menjadi tumpul atau melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan cantik di belakang kotak */
+    text-align: center; /* Memaksa semua teks dan gambar di dalam kotak agar berada persis di tengah */
 }
 
+/* Mengatur tampilan khusus untuk gambar (img) yang ada di dalam kartuprofil */
 .kartuprofil img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    width: 150px; /* Menentukan lebar gambar */
+    height: 150px; /* Menentukan tinggi gambar */
+    border-radius: 50%; /* Memotong gambar menjadi bentuk lingkaran sempurna */
 }
