@@ -1,6 +1,6 @@
-const tomboltobat - document.getElementById('tobato');
+const tomboltobat = document.getElementById('tobato');
 
-tomboltobat.addEventListener('click', function(){
+tomboltobat.addEventListener('click', function() {
 
   alert('Halo,sapa saya');
 
