@@ -1,4 +1,4 @@
-const tombolTobat = document.getElementById('tobato');
+const tombolTobat = document.getElementById('tobat');
 
 tombolTobat.addEventListener('click', function() {
 
