@@ -1,20 +1,22 @@
 body {
-  backgroung-color:#FFFFEO; /*warna kuning*/
-  font-family:Arial, sans-serif;
-  color: #191970;
+    background-color: #FFFFE0;
+    font-family: Arial, sans-serif;
+    color: #191970;
 }
 
 .kartuprofil {
-  width: 300px;
-  margin:50px auto;
-  pandding:20px;
-  background-color:white; 
-  border-radius:15px;
-  box-shadow:0 4px 8px rgba(0,0,0,0,1)
-  text-align: center;
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-.kartuprofil img{
-  width:150px;
-  border-radus:50%;
+.kartuprofil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
 }
